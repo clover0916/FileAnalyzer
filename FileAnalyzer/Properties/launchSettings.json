@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FileAnalyzer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FileAnalyzer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

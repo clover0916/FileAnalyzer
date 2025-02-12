@@ -1,0 +1,34 @@
+# ビルド成果物
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio のユーザー固有ファイル
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code の設定ファイル（必要な場合）
+.vscode/
+
+# Windows システムファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ログやキャッシュファイル
+*.log
+*.tlog
+*.cache
+
+# パッケージフォルダー
+packages/
+
+# NuGet パッケージ
+*.nupkg
+.nuget/
+
+# その他自動生成ファイル
+*.scc
+*.vspscc
