@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="FileAnalyzer.Views.ExecutionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FileAnalyzer.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button x:Name="startButton" Content="Start Analysis" Width="150" Margin="10"/>
+        <TextBlock x:Name="statusTextBlock" Text="Status: Idle" Margin="10"/>
+    </StackPanel>
+</UserControl>
